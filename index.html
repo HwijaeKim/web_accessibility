@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="werap">
+        <header>
+            <select name="lang" class="lang">
+                <option value="ko">한국어</option>
+                <option value="en">English</option>
+                <option value="ja">日本語</option>
+            </select>
+
+
+            <div id="banner">
+                <a href="https://naver.com">
+                    <span class="blind">네이버 로고 본문이동</span>
+                    <img src="./img/logo.png" class="logo_link" alt="네이버 로고 클릭 시 본문으로 이동">
+                </a>
+            </div>
+        </header>
+
+
+        <main>
+            <section id="container">
+                <article id="login">
+                    <div class="menu">
+                        <ul class="tabs">
+                            <li class="tab_sub1" tabindex="0"><span class="first-tab">ID/전화번호</span></li>
+                            <li class="tab_sub2" tabindex="0"><span class="first-tab">일회용 번호</span></li>
+                            <li class="tab_sub3" tabindex="0"><span class="first-tab">QR코드</span></li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article id="login_box">
+                    <input type="text" placeholder="아이디 또는 전화번호" class="login_input"> <br>
+                    <input type="password" placeholder="비밀번호" class="login_input"> <br>
+                    <input type="checkbox" name="maintain" id="maintain">
+                    <label for="maintain">로그인 상태 유지</label>
+
+                    <label for="ip-secure">IP보안</label>
+                    <input type="checkbox" name="ip-secure" id="ip-secure"> <br>
+                    
+
+                    <button>로그인</button>
+                </article>
+
+                
+                <ul id="bottom-menu">
+                    <li class="b-menu">비밀번호 찾기</li>
+                    <li class="b-menu">아이디 찾기</li>
+                    <li class="b-menu">회원가입</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <ul id="footer-menu">
+                <li class="f-menu">이용약관</li>
+                <li class="f-menu">개인정보처리방침</li>
+                <li class="f-menu">책임의 한계와 법적고지</li>
+                <li class="f-menu">회원정보 고객센터</li>
+            </ul>
+
+            <p class="footer-logo"><span class="blind">푸터 로고, 클릭 시 네이버 홈페이지로 이동</span></p>
+        </footer>
+
+
+    </div>
+</body>
+</html>
